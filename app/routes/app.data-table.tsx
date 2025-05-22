@@ -13,7 +13,7 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
   const response = await fetch("http://localhost:5049/api/data");
   const users = await response.json();
 
-  // Tabloya uygun hale getir
+  // Tabloya uygun hale getirtest
   const rows = users.map((user: any) => [
     user.quotationNo.toString(),
   user.dateStr,
