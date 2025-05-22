@@ -2,7 +2,7 @@
   "name": "offer-list-app",
   "private": true,
   "scripts": {
-    "build": "remix vite:build",
+    "build": "build",
     "dev": "shopify app dev",
     "config:link": "shopify app config link",
     "generate": "shopify app generate",
